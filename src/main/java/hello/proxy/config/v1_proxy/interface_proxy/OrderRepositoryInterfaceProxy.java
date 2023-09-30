@@ -5,8 +5,6 @@ import hello.proxy.trace.TraceStatus;
 import hello.proxy.trace.logtrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 
-import java.lang.annotation.Target;
-
 @RequiredArgsConstructor
 public class OrderRepositoryInterfaceProxy implements OrderRepositoryV1 {
 
